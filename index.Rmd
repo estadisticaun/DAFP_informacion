@@ -89,15 +89,20 @@ class: inverse, center, middle
 ### 2. Tipos de datos
 
 ```{r fig9_1, fig.align='center', out.width='47%', fig.show='hold', echo=FALSE}
-knitr::include_graphics('imagenes/F_9.png')
+knitr::include_graphics('Imagenes/F_9.png')
 ```
 <font size=2><b>Disponible en: </b><a href="https://raw.githubusercontent.com/estadisticaun/L_Conceptual/master/imagenes/F_9.png?token=AHYPBYXQ2ZQXAQDE7VOR7ILAXYMBM">Capítulo 3. Gestión de la Información en las Universidades.</a></font>
 
 ---
 ### 3. Prueba Imagen
 
+<img src="Imagenes/Deser1.png">
+
+---
+### 3.1 Prueba 31
+
 ```{r fig3, fig.align='center', out.width='47%', fig.show='hold', echo=FALSE}
-knitr::include_graphics('imagenes/Deser1.png')
+knitr::include_graphics('Imagenes/Deser1.png')
 ```
 <font size=2><b>Disponible en: </b><a href="https://raw.githubusercontent.com/estadisticaun/L_Conceptual/master/imagenes/F_9.png?token=AHYPBYXQ2ZQXAQDE7VOR7ILAXYMBM">Capítulo 3. Gestión de la Información en las Universidades.</a></font>
 
@@ -110,32 +115,32 @@ knitr::include_graphics('imagenes/Deser1.png')
 ]
 .panel[.panel-name[2.Tipos]
 ```{r fig9, fig.align='center', out.width='47%', fig.show='hold', echo=FALSE}
-knitr::include_graphics('imagenes/F91.png')
+knitr::include_graphics('Imagenes/F91.png')
 ```
 <font size=2><b>Disponible en: </b><a href="https://raw.githubusercontent.com/estadisticaun/L_Conceptual/master/imagenes/F_9.png?token=AHYPBYXQ2ZQXAQDE7VOR7ILAXYMBM">Capítulo 3. Gestión de la Información en las Universidades.</a></font>
 ]
 .panel[.panel-name[3.Aproximaxiones académicas]
 ```{r fig10, fig.align='center', out.width='50%', fig.show='hold', echo=FALSE}
-knitr::include_graphics('imagenes/F_10.png')
+knitr::include_graphics('Imagenes/F_10.png')
 ```
 <font size=2><b>Disponible en: </b><a href="https://raw.githubusercontent.com/estadisticaun/L_Conceptual/master/imagenes/F_10.png?token=AHYPBYTXQHTF43XSP72ZT53AXYMKC">Capítulo 3. Gestión de la Información en las Universidades.</a></font>
 ]
 
 .panel[.panel-name[4.Usos]
 ```{r fig11, fig.align='center', out.width='50%', fig.show='hold', echo=FALSE}
-knitr::include_graphics('imagenes/F_11.png')
+knitr::include_graphics('Imagenes/F_11.png')
 ```
 <font size=2><b>Disponible en: </b><a href="https://raw.githubusercontent.com/estadisticaun/L_Conceptual/master/imagenes/F_11.png?token=AHYPBYUOPHLK4JYLWLG2CDTAXYMPK">Capítulo 3. Gestión de la Información en las Universidades.</a></font>
 ]
 .panel[.panel-name[5.La tecnología]
 ```{r fig14, fig.align='center', out.width='47%', fig.show='hold', echo=FALSE}
-knitr::include_graphics('imagenes/F_14.png')
+knitr::include_graphics('Imagenes/F_14.png')
 ```
 <font size=2><b>Disponible en: </b><a href="https://raw.githubusercontent.com/estadisticaun/L_Conceptual/master/imagenes/F_14.png?token=AHYPBYXH34UNHZARFJBRGH3AXYMUU">Capítulo 3. Gestión de la Información en las Universidades.</a></font>
 ]
 .panel[.panel-name[6.En conclusión]
 ```{r fig15, fig.align='center', out.width='50%', fig.show='hold', echo=FALSE}
-knitr::include_graphics('imagenes/F_15.png')
+knitr::include_graphics('Imagenes/F_15.png')
 ```
 <font size=2><b>Disponible en: </b><a href="https://raw.githubusercontent.com/estadisticaun/L_Conceptual/master/imagenes/F_15.png?token=AHYPBYQFCOYZIXYVBWENHHTAXYIOQ">Capítulo 3. Gestión de la Información en las Universidades.</a></font>
 ]
@@ -143,7 +148,7 @@ knitr::include_graphics('imagenes/F_15.png')
 
 .panel[.panel-name[7.Contexto de la analítica]
 ```{r fig16, fig.align='center', out.width='50%', fig.show='hold', echo=FALSE}
-knitr::include_graphics('imagenes/Figura16.jpg')
+knitr::include_graphics('Imagenes/Figura16.jpg')
 ```
 <font size=2><b>Disponible en: </b><a href="https://raw.githubusercontent.com/estadisticaun/L_Conceptual/master/imagenes/F_15.png?token=AHYPBYQFCOYZIXYVBWENHHTAXYIOQ">Ver imagen ampliada.</a></font>
 ]
