@@ -94,6 +94,14 @@ knitr::include_graphics('imagenes/F_9.png')
 <font size=2><b>Disponible en: </b><a href="https://raw.githubusercontent.com/estadisticaun/L_Conceptual/master/imagenes/F_9.png?token=AHYPBYXQ2ZQXAQDE7VOR7ILAXYMBM">Capítulo 3. Gestión de la Información en las Universidades.</a></font>
 
 ---
+### 3. Prueba Imagen
+
+```{r fig3, fig.align='center', out.width='47%', fig.show='hold', echo=FALSE}
+knitr::include_graphics('imagenes/Deser1.png')
+```
+<font size=2><b>Disponible en: </b><a href="https://raw.githubusercontent.com/estadisticaun/L_Conceptual/master/imagenes/F_9.png?token=AHYPBYXQ2ZQXAQDE7VOR7ILAXYMBM">Capítulo 3. Gestión de la Información en las Universidades.</a></font>
+
+---
 ### Los datos y sus diversos propósitos/caminos
 
 .panelset[
@@ -102,7 +110,7 @@ knitr::include_graphics('imagenes/F_9.png')
 ]
 .panel[.panel-name[2.Tipos]
 ```{r fig9, fig.align='center', out.width='47%', fig.show='hold', echo=FALSE}
-knitr::include_graphics('imagenes/F_9_1.png')
+knitr::include_graphics('imagenes/F91.png')
 ```
 <font size=2><b>Disponible en: </b><a href="https://raw.githubusercontent.com/estadisticaun/L_Conceptual/master/imagenes/F_9.png?token=AHYPBYXQ2ZQXAQDE7VOR7ILAXYMBM">Capítulo 3. Gestión de la Información en las Universidades.</a></font>
 ]
