@@ -1,0 +1,181 @@
+---
+title: "Gestión de la información cuantitativa en las entidades públicas"
+subtitle: "Más allá del procesamiento de datos y la analítica"
+author: "<br/><br/>Alberto Rodríguez R <br/><br/> Dirección Nacional de Planeación y Estadística"
+institute: "Universidad Nacional de Colombia"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+    # includes:
+    #   after_body: libs/unal/html/scripts.html
+    #   in_header: libs/unal/html/style.html      
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE,  htmltools.preserve.raw = FALSE)
+```
+
+
+```{r xaringan-panelset, echo=FALSE}
+xaringanExtra::use_panelset()
+```
+
+```{r xaringan-logo, echo=FALSE}
+xaringanExtra::use_logo(
+  image_url = "https://raw.githubusercontent.com/estadisticaun/TendenciasCSU/master/Imagenes/LOGOSIMBOLO%20LATERAL.png", width = "115px",
+  height = "133px")
+```
+
+
+## Consideraciones para el uso adecuado de la presentación
+
+  1.	<p style="font-size:100%  align="justify";> Dar click en la letra <b>H</b> o en el símbolo <b>?</b> para desplegar las distintas <b>opciones de navegación</b> que ofrece la presentación.</p>
+  
+  2.	<p style="font-size:100%  align="justify";> La opción <b>“Pantalla Completa”</b> presenta <b>problemas</b> en los <b>dispositivos móviles Iphone.</b></p>
+  
+  3.	<p style="font-size:100%  align="justify";> Si uno o más objetos gráficos presentan algún grado de desconfiguración/deformación, recargar las presentación dando click en la tecla  <b>F5</b> si nos encontramos en un PC o directamente desde la barra del navegador.</p>
+  
+  4.	<p style="font-size:100%"  align="justify";> La totalidad de gráficos interactivos tienen la opción de ser vistos en <b>pantalla completa</b> (full screen). Para hacer uso de esta opción, ir a la parte baja de cada gráfico o a los íconos ubicados en la parte superior derecha o izquierda de los mismos. Para salir de la opción pantalla completa, dar click en la tecla <b>ESC</b>.</p>
+  
+  5.	<p style="font-size:100%"  align="justify";> Buena parte de los gráficos contenidos en las distintas diapositivas pueden ser <b>“manipulados”</b> al hacer <b>click</b> en las distintas <b>opciones/etiquetas</b> que los acompañan.</p>
+
+---
+class: inverse, center, middle
+
+# ¿Por qué es importante gestionar la información cuantitativa en las entidades públicas?
+
+---
+### ¿Por qué es importante gestionar la información cuantitativa?
+
+.panelset[
+.panel[.panel-name[1.Planeación]
+
+]
+.panel[.panel-name[2.Evaluación]
+
+]
+.panel[.panel-name[3.Transparencia]
+
+]
+
+.panel[.panel-name[4.Rend. de cuentas]
+
+]
+.panel[.panel-name[5. Control]
+
+]
+.panel[.panel-name[6.Reporte microdatos]
+
+]
+.panel[.panel-name[7.Estadísticas e indicadores]
+
+]
+.panel[.panel-name[8.Benchmarking]
+
+]
+]
+
+---
+class: inverse, center, middle
+
+# ¿Cuál es la fuente/base de la información cuantitativa?
+
+---
+### Los datos y sus diversos propósitos/caminos
+
+.panelset[
+.panel[.panel-name[1.Los datos]
+
+]
+.panel[.panel-name[2.Tipos]
+
+]
+.panel[.panel-name[3.Aproximaxiones académicas]
+
+]
+
+.panel[.panel-name[4.Usos]
+
+]
+.panel[.panel-name[5.La tecnología]
+
+]
+.panel[.panel-name[6.En conclusión]
+
+]
+
+.panel[.panel-name[7.Contexto de la analítica]
+
+]
+
+]
+
+---
+class: inverse, center, middle
+
+# ¿Cuáles son los requisitos para la gestión de la información cuantitativa?
+
+---
+### Requisitos para la gestión de la información cuantitativa
+
+.panelset[
+.panel[.panel-name[1.El propósito]
+
+]
+.panel[.panel-name[2.La Normatividad]
+
+]
+
+.panel[.panel-name[3.El Talento humano]
+
+]
+.panel[.panel-name[4.Las herramientas]
+
+]
+
+.panel[.panel-name[5.Un proceso]
+
+]
+.panel[.panel-name[6.Apuesta institucional]
+
+]
+]
+
+---
+class: inverse, center, middle
+
+# ¿Cuáles son los riesgos que enfrenta la gestión de la información cuantitativa?
+
+---
+### Riesgos para la gestión de la información cuantitativa
+.panelset[
+
+.panel[.panel-name[Risk 1]
+<h4 style="color:Red;"><u>Una actividad puntual y no un proceso</u></h4>
+]
+
+.panel[.panel-name[Risk 2]
+<h4 style="color:Red;"><u>La tecnología como fin y no como medio</u></h4>
+]
+.panel[.panel-name[Risk 3]
+<h4 style="color:Red;"><u>El peligro de las modas</u></h4>
+]
+
+.panel[.panel-name[Risk 4]
+<h4 style="color:Red;"><u>Lo complejo sinónimo de bueno; lo simple, de malo o mediocre  </u></h4>
+]
+.panel[.panel-name[Risk 5]
+<h4 style="color:Red;"><u>El desconocimiento de las competencias</u></h4>
+]
+.panel[.panel-name[Risk 6]
+<h4 style="color:Red;"><u>El gobierno antes que el Estado</u></h4>
+]
+.panel[.panel-name[Risk 7]
+<h4 style="color:Red;"><u>La ética en la producción y uso de datos y cifras</u></h4>
+]
+]
