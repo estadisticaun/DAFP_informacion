@@ -1,8 +1,8 @@
 ---
 title: "Gestión de la información cuantitativa en las entidades públicas"
-subtitle: "Más allá del procesamiento de datos y la analítica"
-author: "<br/><br/>Alberto Rodríguez R <br/><br/> Dirección Nacional de Planeación y Estadística"
-institute: "Universidad Nacional de Colombia"
+subtitle: "Un paso previo al procesamiento de datos y la analítica"
+author: "<br/><br/>Alberto Rodríguez R <br/><br/>Departamento Administrativo de la Función Pública-DAFP<br/><br/>Dirección Nacional de Planeación y Estadística<br/>Universidad Nacional de Colombia"
+#institute: "Universidad Nacional de Colombia"
 date: "`r Sys.Date()`"
 output:
   xaringan::moon_reader:
@@ -45,15 +45,21 @@ xaringanExtra::use_logo(
 ## Consideraciones para el uso adecuado de la presentación
 
   1.	<p style="font-size:100%  align="justify";> Dar click en la letra <b>H</b> o en el símbolo <b>?</b> para desplegar las distintas <b>opciones de navegación</b> que ofrece la presentación.</p>
-  
-  2.	<p style="font-size:100%  align="justify";> La opción <b>“Pantalla Completa”</b> presenta <b>problemas</b> en los <b>dispositivos móviles Iphone.</b></p>
-  
-  3.	<p style="font-size:100%  align="justify";> Si uno o más objetos gráficos presentan algún grado de desconfiguración/deformación, recargar las presentación dando click en la tecla  <b>F5</b> si nos encontramos en un PC o directamente desde la barra del navegador.</p>
-  
-  4.	<p style="font-size:100%"  align="justify";> La totalidad de gráficos interactivos tienen la opción de ser vistos en <b>pantalla completa</b> (full screen). Para hacer uso de esta opción, ir a la parte baja de cada gráfico o a los íconos ubicados en la parte superior derecha o izquierda de los mismos. Para salir de la opción pantalla completa, dar click en la tecla <b>ESC</b>.</p>
-  
-  5.	<p style="font-size:100%"  align="justify";> Buena parte de los gráficos contenidos en las distintas diapositivas pueden ser <b>“manipulados”</b> al hacer <b>click</b> en las distintas <b>opciones/etiquetas</b> que los acompañan.</p>
 
+---
+## Contenido
+
+<br>
+
+1. <p align="justify">**¿Por qué es importante gestionar la información cuantitativa en las entidades públicas?**
+<br>
+2. <p align="justify">**¿Cuál es la fuente/base de la información cuantitativa?**
+<br>
+3. <p align="justify">**¿Cuáles son los requisitos para la gestión de la información cuantitativa?**
+<br>
+4. <p align="justify">**¿Cuáles son los riesgos que enfrenta la gestión de la información cuantitativa?**
+
+ 
 ---
 class: inverse, center, middle
 
@@ -336,11 +342,18 @@ Lineamientos disponibles para la gestión de la información cuantitativa.
 
 - <FONT COLOR="red">Datos abiertos</FONT>
 
+###### [Resolución 1519 del 2020 - Mintic - Anexo 4](https://normograma.mintic.gov.co/mintic/docs/resolucion_mintic_1519_2020.htm)
+
+
 ]
 
 .pull-right[
 
+###### [Portal de datos abiertos del estado colombiano](https://www.datos.gov.co/)
+
 - <FONT COLOR="red">Intercambio de datos</FONT>
+
+###### [Marco de interoperabilidad para gobierno digital](https://www.mintic.gov.co/arquitecturati/630/articles-9375_recurso_4.pdf)
 
 - <FONT COLOR="red">Propósitos analíticos</FONT>
 
@@ -401,7 +414,7 @@ R, Rstudio, Python, SAS, Stata, HTLM, CSS, JavaScrip, Git, etc.
 
 .panel[.panel-name[5.Una apuesta institucional]
 
-<p align="justify"> La gestión de la información cuantitativa a nivel de las entidades públicas debe surgir de una apuesta institucional. Esta apuesta, en principio, debe contener los siguientes aspectos constitutivos.
+<p align="justify"> La gestión de la información cuantitativa a nivel de las entidades públicas debe surgir de una apuesta institucional. Esta apuesta debe contener, en lo posible, los siguientes aspectos constitutivos.
 
 .pull-left[
 ```{r proceso, fig.align='center', out.width='100%', fig.show='hold', echo=FALSE}
@@ -409,6 +422,20 @@ knitr::include_graphics('Imagenes/Organigrama.jpg')
 ```
 ]
 .pull-right[
+
+- <FONT COLOR="red">Apoyo desde la alta dirección (estratégico)</FONT>
+- <FONT COLOR="red">Lugar en la estructura de la entidad -en el organigrama-</FONT>
+
+- <FONT COLOR="red">Planeación Estadística</FONT>
+
+- <FONT COLOR="red">Talento humano disponible</FONT>
+
+- <FONT COLOR="red">Herramientas tecnológicas</FONT>
+
+- <FONT COLOR="red">Recursos metodológicos</FONT>
+
+- <FONT COLOR="red">Recursos financieros</FONT>
+
 ]
 ]
 
@@ -476,3 +503,27 @@ knitr::include_graphics('Imagenes/Riesgo7.jpg')
 ```
 ]
 ]
+
+---
+### Más sobre la gestión de la información cuantitativa
+<p align="justify">Algunas de las ideas contenidas en esta presentación hacen parte del libro **Gestión de la Información Cuantitativa en la Universidades - Pistas para su abordaje en la era de la sobreinformación.**
+
+<br>
+```{r libro, fig.align='center', out.width='35%', fig.show='hold', echo=FALSE}
+knitr::include_graphics('Imagenes/Portada.jpg')
+```
+
+<font size=2><b>Disponible en: </b><a href="https://estadisticaun.github.io/L_Conceptual">https://estadisticaun.github.io/L_Conceptual</a></font>
+
+---
+class: inverse, center, middle
+
+# ¡Muchas gracias!
+<br>
+## El contenido de esta presentación se encuentra disponible en:<br>
+[https://estadisticaun.github.io/DAFP_informacion/#1](https://estadisticaun.github.io/DAFP_informacion/#1)
+<br>
+## Información de contacto:
+Nombre: Alberto Rodríguez R <br>
+Mail: albrodriguezr@unal.edu.co <br> estadistica_nal@unal.edu.co<br>
+Teléfono: 3165000 Ext. 18519 - 18159<br>
