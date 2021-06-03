@@ -136,7 +136,7 @@ knitr::include_graphics('Imagenes/Control.jpg')
 
 #### Control Externo
 
-- Apuesta nacional por alcanzar un **control fiscal en tipo real**. 
+- Apuesta nacional por alcanzar un **control fiscal en tiempo real**. 
 
 - Disposición de bases de datos<FONT COLOR="red"><u> intercambio de datos</u></FONT>
 
@@ -320,41 +320,99 @@ Los datos, en el contexto de las estidades públicas en Colombia, pueden ser req
 ]
 
 
-
-
-
-
 ]
 .panel[.panel-name[2.Los lineamientos]
+
+Lineamientos disponibles para la gestión de la información cuantitativa.
+
+.pull-left[
+
+- <FONT COLOR="red">Estadísticas e indicadores</FONT>
+
+###### [1. Sistema Estadístico Nacional](https://www.dane.gov.co/index.php/sistema-estadistico-nacional-sen#sistemas-de-consulta-sen)
+###### [2. NTCPE-1000](https://www.dane.gov.co/index.php/norma-tecnica-de-la-calidad)
+###### [3. Guía para la construcción y análisis de indicadores - DNP](https://colaboracion.dnp.gov.co/CDT/Sinergia/Documentos/Guia_para_elaborar_Indicadores.pdf)
+###### [4. Guía para la construcción y análisis de indicadores de gestión - DAFP](https://www.funcionpublica.gov.co/documents/418548/34150781/Gu%C3%ADa+para+la+construcci%C3%B3n+y+an%C3%A1lisis+de+Indicadores+de+Gesti%C3%B3n+-+Versi%C3%B3n+4+-+Mayo+2018.pdf/0e0d10e4-0ec0-6781-21e9-f2bedfd0e18a?t=1533038939417&download=true)
+
+- <FONT COLOR="red">Datos abiertos</FONT>
+
+]
+
+.pull-right[
+
+- <FONT COLOR="red">Intercambio de datos</FONT>
+
+- <FONT COLOR="red">Propósitos analíticos</FONT>
+
+]
 
 ]
 
 .panel[.panel-name[3.El talento humano]
+
+<p align="justify">La gestión contemporánea de los datos a nivel de las entidades pública exige un perfil profesional o, un grupo de profesionales, experto(s) en las siguientes competencias.
 <br>
-<p align="justify">La gestión contemporánea de los datos a nivel de las entidades pública exige un perfil profesional o, un grupo de profesionales, experto en las siguientes competencias.
-
-- **Matemáticas y estadística**
-
-
-- **Ciencias computacionales (programación)**
-
-
-- **Conocimiento del negocio -entidades-**
+.pull-left[
+```{r Compe, fig.align='center', out.width='70%', fig.show='hold', echo=FALSE}
+knitr::include_graphics('Imagenes/Estudiar.jpg')
+```
+]
+.pull-right[
+- <FONT COLOR="red">Matemáticas y estadística</FONT>
 
 
-- **Habilidades blandas** 
+- <FONT COLOR="red">Ciencias computacionales (programación)</FONT>
 
+
+- <FONT COLOR="red">Conocimiento del negocio -entidades-</FONT>
+
+
+- <FONT COLOR="red">Habilidades blandas</FONT> 
+]
 ]
 .panel[.panel-name[4.Las herramientas]
 
+.pull-left[
+```{r Herra, fig.align='center', out.width='90%', fig.show='hold', echo=FALSE}
+knitr::include_graphics('Imagenes/F_14.png')
+```
+<font size=2><b>Disponible en: </b><a href="https://raw.githubusercontent.com/estadisticaun/L_Conceptual/master/imagenes/F_14.png?token=AHYPBYXH34UNHZARFJBRGH3AXYMUU">Capítulo 3. Gestión de la Información en las Universidades.</a></font>
 ]
 
-.panel[.panel-name[5.Un proceso]
+.pull-right[
+- <FONT COLOR="red">Alto Nivel</FONT>
+
+Por ejemplo:
+
+PowerBI, Tableau, DataStudio, Pentahoo, flourish, Qlick, SPSS, Kmine, RapidMiner, Excel, etc. 
+
+
+- <FONT COLOR="red">Bajo Nivel</FONT>
+
+Por ejemplo:
+
+R, Rstudio, Python, SAS, Stata, HTLM, CSS, JavaScrip, Git, etc. 
+
+
+<font size=2><b>Ver enlace en: </b><a href="https://keshif.me/demo/VisTools#515">Un inventario de herramientas tecnológicas para la gestión de los datos.</a></font>
 
 ]
-.panel[.panel-name[6.Apuesta institucional]
-
 ]
+
+.panel[.panel-name[5.Una apuesta institucional]
+
+<p align="justify"> La gestión de la información cuantitativa a nivel de las entidades públicas debe surgir de una apuesta institucional. Esta apuesta, en principio, debe contener los siguientes aspectos constitutivos.
+
+.pull-left[
+```{r proceso, fig.align='center', out.width='100%', fig.show='hold', echo=FALSE}
+knitr::include_graphics('Imagenes/Organigrama.jpg')
+```
+]
+.pull-right[
+]
+]
+
+
 ]
 
 ---
@@ -367,26 +425,54 @@ class: inverse, center, middle
 .panelset[
 
 .panel[.panel-name[Riesgo 1]
-<h4 style="color:Red;"><u>Una actividad puntual y no un proceso</u></h4>
+<h4 style="color:Red;">Una actividad puntual y no un proceso</h4>
+<br>
+```{r risk1, fig.align='center', out.width='60%', fig.show='hold', echo=FALSE}
+knitr::include_graphics('Imagenes/Riesgo1.jpg')
+```
 ]
 
 .panel[.panel-name[Riesgo 2]
-<h4 style="color:Red;"><u>La tecnología como fin y no como medio</u></h4>
+<h4 style="color:Red;">La tecnología como fin y no como medio</h4>
+<br>
+```{r risk2, fig.align='center', out.width='60%', fig.show='hold', echo=FALSE}
+knitr::include_graphics('Imagenes/Riesgo2.jpg')
+```
 ]
 .panel[.panel-name[Riesgo 3]
-<h4 style="color:Red;"><u>El peligro de las modas</u></h4>
+<h4 style="color:Red;">El riesgo de las modas</h4>
+<br>
+```{r risk3, fig.align='center', out.width='60%', fig.show='hold', echo=FALSE}
+knitr::include_graphics('Imagenes/Riesgo3.jpg')
+```
 ]
 
 .panel[.panel-name[Riesgo 4]
-<h4 style="color:Red;"><u>Lo complejo sinónimo de bueno; lo simple, de malo o mediocre  </u></h4>
+<h4 style="color:Red;">Lo complejo sinónimo de bueno; lo simple, de malo o mediocre  </h4>
+<br>
+```{r risk4, fig.align='center', out.width='70%', fig.show='hold', echo=FALSE}
+knitr::include_graphics('Imagenes/Riesgo4.jpg')
+```
 ]
 .panel[.panel-name[Riesgo 5]
-<h4 style="color:Red;"><u>El desconocimiento de las competencias</u></h4>
+<h4 style="color:Red;">El desconocimiento de las competencias</h4>
+<br>
+```{r risk5, fig.align='center', out.width='70%', fig.show='hold', echo=FALSE}
+knitr::include_graphics('Imagenes/Riesgo5.png')
+```
+
 ]
 .panel[.panel-name[Riesgo 6]
-<h4 style="color:Red;"><u>El gobierno antes que el Estado</u></h4>
+<h4 style="color:Red;">El gobierno antes que el Estado</h4>
+```{r risk6, fig.align='center', out.width='50%', fig.show='hold', echo=FALSE}
+knitr::include_graphics('Imagenes/Riesgo6.png')
+```
 ]
 .panel[.panel-name[Riesgo 7]
-<h4 style="color:Red;"><u>La ética en la producción y uso de datos y cifras</u></h4>
+<h4 style="color:Red;">La ética en la producción y uso de datos y cifras</h4>
+<br>
+```{r risk7, fig.align='center', out.width='60%', fig.show='hold', echo=FALSE}
+knitr::include_graphics('Imagenes/Riesgo7.jpg')
+```
 ]
 ]
