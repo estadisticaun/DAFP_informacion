@@ -40,6 +40,15 @@ xaringanExtra::use_logo(
   height = "133px")
 ```
 
+```{r echo=FALSE}
+xaringanExtra::style_panelset_tabs(
+  active_foreground = "#0051BA",
+  hover_foreground = "#d22",
+  font_family = "Roboto"
+)
+```
+
+
 <!-- INICIO DE LA PRESENTACIÓN -->
 
 ## Consideraciones para el uso adecuado de la presentación
